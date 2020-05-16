@@ -1,0 +1,8 @@
+# git clone https://github.com/apereo/cas-overlay-template.git
+docker run --rm -it \
+   -v ${PWD}/cas-overlay-template:/usr/src/ \
+   -w /usr/src \
+tomcat:jdk11-openjdk-slim ./gradlew clean build
+
+# Create the cas directory to map it to the deployed tomcat container
+unzip cas-overlay-template/build/libs/cas.war -d cas

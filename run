@@ -1,0 +1,9 @@
+docker run --rm -p 8080:8080 \
+   -v ${PWD}/cas:/usr/local/tomcat/webapps/cas/ \
+   -v ${PWD}/config:/etc/cas/config \
+   -v ${PWD}/passwords:/etc/cas/passwords \
+   -v ${PWD}/services:/etc/cas/services:rw \
+   -v ${PWD}/templates:/etc/cas/templates \
+   -v ${PWD}/foo.properties:/usr/local/tomcat/webapps/cas/WEB-INF/classes/foo.properties \
+   -v ${PWD}/web:/usr/local/tomcat/webapps/cas/foo \
+tomcat:jdk11-openjdk-slim
