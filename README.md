@@ -1,3 +1,7 @@
+**DO NOT USE THIS FOR PRODUCTION.  It is only here as a way to figure out the dynamic styles**
+
+Based on:  https://apereo.github.io/cas/6.1.x/ux/User-Interface-Customization-Themes.html
+
 ## Requirements
  - Linux or Mac system
  - Docker
