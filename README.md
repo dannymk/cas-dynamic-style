@@ -23,3 +23,7 @@ dependencies {
 ```
 5. sh runBuild
 6. sh run
+7. Navigate to http://localhost:8080/cas/login
+You will get the default template here...
+8. Navigate to http://localhost:8080/cas/login?service=http://mydomain.com
+You will get the template defined as "foo"
