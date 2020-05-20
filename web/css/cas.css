@@ -35,7 +35,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background: #FF0000;
+    background: #EFEFEF;
 }
 
 a {
