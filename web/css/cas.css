@@ -38,6 +38,11 @@ body {
     background: #EFEFEF;
 }
 
+span.my-test-class{
+   color: aliceblue;
+   font-size: larger;
+}
+
 a {
     color: #153e50;
     color: var(--cas-theme-primary);
